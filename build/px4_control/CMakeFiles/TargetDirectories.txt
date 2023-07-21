@@ -1,0 +1,9 @@
+/home/albertocastro/px4_drone/build/px4_control/CMakeFiles/uninstall.dir
+/home/albertocastro/px4_drone/build/px4_control/CMakeFiles/px4_control_uninstall.dir
+/home/albertocastro/px4_drone/build/px4_control/CMakeFiles/test.dir
+/home/albertocastro/px4_drone/build/px4_control/CMakeFiles/edit_cache.dir
+/home/albertocastro/px4_drone/build/px4_control/CMakeFiles/rebuild_cache.dir
+/home/albertocastro/px4_drone/build/px4_control/CMakeFiles/list_install_components.dir
+/home/albertocastro/px4_drone/build/px4_control/CMakeFiles/install.dir
+/home/albertocastro/px4_drone/build/px4_control/CMakeFiles/install/local.dir
+/home/albertocastro/px4_drone/build/px4_control/CMakeFiles/install/strip.dir

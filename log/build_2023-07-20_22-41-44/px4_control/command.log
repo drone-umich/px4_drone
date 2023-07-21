@@ -1,0 +1,6 @@
+Invoking command in '/home/albertocastro/px4_drone/build/px4_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/albertocastro/px4_drone/src/px4_control -DCMAKE_INSTALL_PREFIX=/home/albertocastro/px4_drone/install/px4_control
+Invoked command in '/home/albertocastro/px4_drone/build/px4_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/albertocastro/px4_drone/src/px4_control -DCMAKE_INSTALL_PREFIX=/home/albertocastro/px4_drone/install/px4_control
+Invoking command in '/home/albertocastro/px4_drone/build/px4_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albertocastro/px4_drone/build/px4_control -- -j4 -l4
+Invoked command in '/home/albertocastro/px4_drone/build/px4_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albertocastro/px4_drone/build/px4_control -- -j4 -l4
+Invoking command in '/home/albertocastro/px4_drone/build/px4_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albertocastro/px4_drone/build/px4_control
+Invoked command in '/home/albertocastro/px4_drone/build/px4_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albertocastro/px4_drone/build/px4_control

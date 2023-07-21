@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000187] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000248] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/albertocastro/px4_drone/install/px4_msgs')])}
+[0.000309] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.020326] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.021417] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[0.022464] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/albertocastro/px4_drone/build/px4_ros_com', '--', '-j4', '-l4'], 'cwd': '/home/albertocastro/px4_drone/build/px4_ros_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'albertocastro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/albertocastro/px4_drone/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albertocastro'), ('OLDPWD', '/home/albertocastro/px4_drone/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albertocastro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albertocastro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/albertocastro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/albertocastro-MacBookAir:@/tmp/.ICE-unix/2182,unix/albertocastro-MacBookAir:/tmp/.ICE-unix/2182'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79e15d13_10d1_4ac6_9702_9542aadb0a5f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LGZE81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.428'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/albertocastro/px4_drone/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albertocastro/px4_drone/build/px4_ros_com'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/albertocastro/px4_drone/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/albertocastro/px4_drone/install/px4_msgs:/opt/ros/humble')]), 'shell': False}
+[0.086844] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vehicle_gps_position_listener\x1b[0m\n'}
+[0.098417] (-) TimerEvent: {}
+[0.106878] (px4_ros_com) StdoutLine: {'line': b'[ 20%] Built target frame_transforms\n'}
+[0.110783] (px4_ros_com) StdoutLine: {'line': b'[ 40%] Built target sensor_combined_listener\n'}
+[0.124540] (px4_ros_com) StdoutLine: {'line': b'[ 60%] Built target debug_vect_advertiser\n'}
+[0.131919] (px4_ros_com) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o\x1b[0m\n'}
+[0.148317] (px4_ros_com) StdoutLine: {'line': b'[ 90%] Built target offboard_control\n'}
+[0.198542] (-) TimerEvent: {}
+[0.298968] (-) TimerEvent: {}
+[0.399353] (-) TimerEvent: {}
+[0.499750] (-) TimerEvent: {}
+[0.600125] (-) TimerEvent: {}
+[0.700471] (-) TimerEvent: {}
+[0.800800] (-) TimerEvent: {}
+[0.901137] (-) TimerEvent: {}
+[1.001499] (-) TimerEvent: {}
+[1.101891] (-) TimerEvent: {}
+[1.202230] (-) TimerEvent: {}
+[1.302580] (-) TimerEvent: {}
+[1.403007] (-) TimerEvent: {}
+[1.503381] (-) TimerEvent: {}
+[1.603753] (-) TimerEvent: {}
+[1.704146] (-) TimerEvent: {}
+[1.804530] (-) TimerEvent: {}
+[1.904906] (-) TimerEvent: {}
+[2.005270] (-) TimerEvent: {}
+[2.105742] (-) TimerEvent: {}
+[2.206127] (-) TimerEvent: {}
+[2.306518] (-) TimerEvent: {}
+[2.406970] (-) TimerEvent: {}
+[2.507397] (-) TimerEvent: {}
+[2.607837] (-) TimerEvent: {}
+[2.708229] (-) TimerEvent: {}
+[2.808655] (-) TimerEvent: {}
+[2.909074] (-) TimerEvent: {}
+[3.009509] (-) TimerEvent: {}
+[3.109947] (-) TimerEvent: {}
+[3.210391] (-) TimerEvent: {}
+[3.310819] (-) TimerEvent: {}
+[3.411242] (-) TimerEvent: {}
+[3.511678] (-) TimerEvent: {}
+[3.612143] (-) TimerEvent: {}
+[3.712594] (-) TimerEvent: {}
+[3.813032] (-) TimerEvent: {}
+[3.913473] (-) TimerEvent: {}
+[4.013909] (-) TimerEvent: {}
+[4.114354] (-) TimerEvent: {}
+[4.214805] (-) TimerEvent: {}
+[4.315233] (-) TimerEvent: {}
+[4.415682] (-) TimerEvent: {}
+[4.516115] (-) TimerEvent: {}
+[4.616542] (-) TimerEvent: {}
+[4.716947] (-) TimerEvent: {}
+[4.817386] (-) TimerEvent: {}
+[4.917824] (-) TimerEvent: {}
+[5.018244] (-) TimerEvent: {}
+[5.118625] (-) TimerEvent: {}
+[5.219015] (-) TimerEvent: {}
+[5.319438] (-) TimerEvent: {}
+[5.419859] (-) TimerEvent: {}
+[5.520332] (-) TimerEvent: {}
+[5.620789] (-) TimerEvent: {}
+[5.721225] (-) TimerEvent: {}
+[5.821604] (-) TimerEvent: {}
+[5.921991] (-) TimerEvent: {}
+[6.022432] (-) TimerEvent: {}
+[6.122899] (-) TimerEvent: {}
+[6.223347] (-) TimerEvent: {}
+[6.323726] (-) TimerEvent: {}
+[6.424126] (-) TimerEvent: {}
+[6.524461] (-) TimerEvent: {}
+[6.624796] (-) TimerEvent: {}
+[6.725128] (-) TimerEvent: {}
+[6.825472] (-) TimerEvent: {}
+[6.925806] (-) TimerEvent: {}
+[7.026146] (-) TimerEvent: {}
+[7.126487] (-) TimerEvent: {}
+[7.226830] (-) TimerEvent: {}
+[7.327196] (-) TimerEvent: {}
+[7.427532] (-) TimerEvent: {}
+[7.527862] (-) TimerEvent: {}
+[7.628200] (-) TimerEvent: {}
+[7.728527] (-) TimerEvent: {}
+[7.828861] (-) TimerEvent: {}
+[7.929196] (-) TimerEvent: {}
+[8.029535] (-) TimerEvent: {}
+[8.129863] (-) TimerEvent: {}
+[8.230273] (-) TimerEvent: {}
+[8.330633] (-) TimerEvent: {}
+[8.431070] (-) TimerEvent: {}
+[8.531414] (-) TimerEvent: {}
+[8.631748] (-) TimerEvent: {}
+[8.732083] (-) TimerEvent: {}
+[8.832421] (-) TimerEvent: {}
+[8.932753] (-) TimerEvent: {}
+[9.033088] (-) TimerEvent: {}
+[9.133420] (-) TimerEvent: {}
+[9.233755] (-) TimerEvent: {}
+[9.334194] (-) TimerEvent: {}
+[9.434589] (-) TimerEvent: {}
+[9.534964] (-) TimerEvent: {}
+[9.635314] (-) TimerEvent: {}
+[9.735684] (-) TimerEvent: {}
+[9.836054] (-) TimerEvent: {}
+[9.936423] (-) TimerEvent: {}
+[10.036783] (-) TimerEvent: {}
+[10.137136] (-) TimerEvent: {}
+[10.237536] (-) TimerEvent: {}
+[10.337937] (-) TimerEvent: {}
+[10.426064] (px4_ros_com) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vehicle_gps_position_listener\x1b[0m\n'}
+[10.438066] (-) TimerEvent: {}
+[10.538412] (-) TimerEvent: {}
+[10.638831] (-) TimerEvent: {}
+[10.739169] (-) TimerEvent: {}
+[10.839543] (-) TimerEvent: {}
+[10.939952] (-) TimerEvent: {}
+[10.979916] (px4_ros_com) StdoutLine: {'line': b'[100%] Built target vehicle_gps_position_listener\n'}
+[10.993570] (px4_ros_com) CommandEnded: {'returncode': 0}
+[11.033977] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'install'}
+[11.040082] (-) TimerEvent: {}
+[11.043898] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/albertocastro/px4_drone/build/px4_ros_com'], 'cwd': '/home/albertocastro/px4_drone/build/px4_ros_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'albertocastro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/albertocastro/px4_drone/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albertocastro'), ('OLDPWD', '/home/albertocastro/px4_drone/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albertocastro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albertocastro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/albertocastro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/albertocastro-MacBookAir:@/tmp/.ICE-unix/2182,unix/albertocastro-MacBookAir:/tmp/.ICE-unix/2182'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79e15d13_10d1_4ac6_9702_9542aadb0a5f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LGZE81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.428'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/albertocastro/px4_drone/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albertocastro/px4_drone/build/px4_ros_com'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/albertocastro/px4_drone/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/albertocastro/px4_drone/install/px4_msgs:/opt/ros/humble')]), 'shell': False}
+[11.053586] (px4_ros_com) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.053977] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener\n'}
+[11.058054] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/albertocastro/px4_drone/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""\n'}
+[11.058369] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener\n'}
+[11.062289] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/albertocastro/px4_drone/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""\n'}
+[11.062607] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser\n'}
+[11.064114] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/albertocastro/px4_drone/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""\n'}
+[11.064477] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/lib/px4_ros_com/offboard_control\n'}
+[11.066438] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/albertocastro/px4_drone/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""\n'}
+[11.067768] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh\n'}
+[11.068241] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv\n'}
+[11.068524] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/include/px4_ros_com\n'}
+[11.068691] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/include/px4_ros_com/frame_transforms.h\n'}
+[11.068849] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/lib/libframe_transforms.so\n'}
+[11.074433] (px4_ros_com) StdoutLine: {'line': b'-- Set runtime path of "/home/albertocastro/px4_drone/install/px4_ros_com/lib/libframe_transforms.so" to ""\n'}
+[11.074816] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com//launch\n'}
+[11.075029] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml\n'}
+[11.075267] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py\n'}
+[11.075516] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com//test\n'}
+[11.075726] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com//test/test_input.py\n'}
+[11.075941] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py\n'}
+[11.076111] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com//test/test_output.py\n'}
+[11.076279] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com//test/__init__.py\n'}
+[11.076553] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com\n'}
+[11.076796] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com\n'}
+[11.077018] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh\n'}
+[11.077242] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv\n'}
+[11.077525] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/environment/path.sh\n'}
+[11.077779] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/environment/path.dsv\n'}
+[11.078046] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/local_setup.bash\n'}
+[11.078306] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/local_setup.sh\n'}
+[11.078573] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/local_setup.zsh\n'}
+[11.078842] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/local_setup.dsv\n'}
+[11.079094] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/package.dsv\n'}
+[11.079458] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com\n'}
+[11.079776] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake\n'}
+[11.080050] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake\n'}
+[11.080309] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.080567] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.080826] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.081092] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.081360] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake\n'}
+[11.081590] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake\n'}
+[11.081814] (px4_ros_com) StdoutLine: {'line': b'-- Installing: /home/albertocastro/px4_drone/install/px4_ros_com/share/px4_ros_com/package.xml\n'}
+[11.084055] (px4_ros_com) CommandEnded: {'returncode': 0}
+[11.140178] (-) TimerEvent: {}
+[11.166363] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 0}
+[11.167663] (-) EventReactorShutdown: {}

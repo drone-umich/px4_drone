@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.001118] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001188] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/albertocastro/px4_drone/install/px4_msgs')])}
+[0.001231] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.029622] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 1}
+[0.040437] (-) EventReactorShutdown: {}

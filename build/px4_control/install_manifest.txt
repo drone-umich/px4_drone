@@ -1,0 +1,15 @@
+/home/albertocastro/px4_drone/install/px4_control/share/ament_index/resource_index/package_run_dependencies/px4_control
+/home/albertocastro/px4_drone/install/px4_control/share/ament_index/resource_index/parent_prefix_path/px4_control
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/environment/ament_prefix_path.sh
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/environment/ament_prefix_path.dsv
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/environment/path.sh
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/environment/path.dsv
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/local_setup.bash
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/local_setup.sh
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/local_setup.zsh
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/local_setup.dsv
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/package.dsv
+/home/albertocastro/px4_drone/install/px4_control/share/ament_index/resource_index/packages/px4_control
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/cmake/px4_controlConfig.cmake
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/cmake/px4_controlConfig-version.cmake
+/home/albertocastro/px4_drone/install/px4_control/share/px4_control/package.xml

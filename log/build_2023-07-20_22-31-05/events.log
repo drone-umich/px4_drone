@@ -1,0 +1,256 @@
+[0.000000] (-) TimerEvent: {}
+[0.000679] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000754] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/albertocastro/px4_drone/install/px4_msgs')])}
+[0.000980] (px4_ros_com) JobStarted: {'identifier': 'px4_ros_com'}
+[0.021008] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'cmake'}
+[0.021837] (px4_ros_com) JobProgress: {'identifier': 'px4_ros_com', 'progress': 'build'}
+[0.022688] (px4_ros_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/albertocastro/px4_drone/build/px4_ros_com', '--', '-j4', '-l4'], 'cwd': '/home/albertocastro/px4_drone/build/px4_ros_com', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'albertocastro'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/albertocastro/px4_drone/install/px4_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albertocastro'), ('OLDPWD', '/home/albertocastro/px4_drone/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albertocastro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albertocastro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/albertocastro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/albertocastro-MacBookAir:@/tmp/.ICE-unix/2182,unix/albertocastro-MacBookAir:/tmp/.ICE-unix/2182'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/79e15d13_10d1_4ac6_9702_9542aadb0a5f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LGZE81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.428'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/albertocastro/px4_drone/install/px4_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albertocastro/px4_drone/build/px4_ros_com'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/albertocastro/px4_drone/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/albertocastro/px4_drone/install/px4_msgs:/opt/ros/humble')]), 'shell': False}
+[0.053089] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099725] (-) TimerEvent: {}
+[0.200277] (-) TimerEvent: {}
+[0.235587] (px4_ros_com) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.266898] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.270435] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.278175] (px4_ros_com) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.292637] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300406] (-) TimerEvent: {}
+[0.313158] (px4_ros_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.331861] (px4_ros_com) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.334080] (px4_ros_com) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.400540] (-) TimerEvent: {}
+[0.454433] (px4_ros_com) StdoutLine: {'line': b'-- Found px4_msgs: 2.0.1 (/home/albertocastro/px4_drone/install/px4_msgs/share/px4_msgs/cmake)\n'}
+[0.498291] (px4_ros_com) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500660] (-) TimerEvent: {}
+[0.563313] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.565433] (px4_ros_com) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600778] (-) TimerEvent: {}
+[0.701090] (-) TimerEvent: {}
+[0.725414] (px4_ros_com) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801205] (-) TimerEvent: {}
+[0.888843] (px4_ros_com) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.901308] (-) TimerEvent: {}
+[1.001306] (px4_ros_com) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.001596] (-) TimerEvent: {}
+[1.101187] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.101692] (-) TimerEvent: {}
+[1.106319] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.107011] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/albertocastro/px4_drone/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/albertocastro/px4_drone/src/px4_ros_com/include/px4_ros_com>\n'}
+[1.107262] (px4_ros_com) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.111778] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.112053] (px4_ros_com) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.113074] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.114665] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.115775] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.120355] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.120618] (px4_ros_com) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.121524] (px4_ros_com) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.123388] (px4_ros_com) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.153077] (px4_ros_com) StdoutLine: {'line': b'-- Generating done\n'}
+[1.155800] (px4_ros_com) StdoutLine: {'line': b'-- Build files have been written to: /home/albertocastro/px4_drone/build/px4_ros_com\n'}
+[1.189706] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target frame_transforms\x1b[0m\n'}
+[1.191107] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target vehicle_gps_position_listener\x1b[0m\n'}
+[1.192959] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target debug_vect_advertiser\x1b[0m\n'}
+[1.201833] (-) TimerEvent: {}
+[1.207092] (px4_ros_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sensor_combined_listener\x1b[0m\n'}
+[1.228143] (px4_ros_com) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o\x1b[0m\n'}
+[1.230810] (px4_ros_com) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o\x1b[0m\n'}
+[1.243821] (px4_ros_com) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o\x1b[0m\n'}
+[1.245487] (px4_ros_com) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o\x1b[0m\n'}
+[1.301950] (-) TimerEvent: {}
+[1.402442] (-) TimerEvent: {}
+[1.502957] (-) TimerEvent: {}
+[1.603447] (-) TimerEvent: {}
+[1.703896] (-) TimerEvent: {}
+[1.804352] (-) TimerEvent: {}
+[1.904865] (-) TimerEvent: {}
+[2.005400] (-) TimerEvent: {}
+[2.105987] (-) TimerEvent: {}
+[2.206574] (-) TimerEvent: {}
+[2.307078] (-) TimerEvent: {}
+[2.407735] (-) TimerEvent: {}
+[2.508290] (-) TimerEvent: {}
+[2.608795] (-) TimerEvent: {}
+[2.709361] (-) TimerEvent: {}
+[2.809966] (-) TimerEvent: {}
+[2.910551] (-) TimerEvent: {}
+[3.011359] (-) TimerEvent: {}
+[3.112151] (-) TimerEvent: {}
+[3.213031] (-) TimerEvent: {}
+[3.313764] (-) TimerEvent: {}
+[3.414442] (-) TimerEvent: {}
+[3.514954] (-) TimerEvent: {}
+[3.615445] (-) TimerEvent: {}
+[3.715832] (-) TimerEvent: {}
+[3.816228] (-) TimerEvent: {}
+[3.916621] (-) TimerEvent: {}
+[4.017018] (-) TimerEvent: {}
+[4.117419] (-) TimerEvent: {}
+[4.217820] (-) TimerEvent: {}
+[4.318217] (-) TimerEvent: {}
+[4.418618] (-) TimerEvent: {}
+[4.519000] (-) TimerEvent: {}
+[4.619390] (-) TimerEvent: {}
+[4.719803] (-) TimerEvent: {}
+[4.820210] (-) TimerEvent: {}
+[4.920612] (-) TimerEvent: {}
+[5.021014] (-) TimerEvent: {}
+[5.121400] (-) TimerEvent: {}
+[5.221821] (-) TimerEvent: {}
+[5.322223] (-) TimerEvent: {}
+[5.422638] (-) TimerEvent: {}
+[5.523037] (-) TimerEvent: {}
+[5.623443] (-) TimerEvent: {}
+[5.723832] (-) TimerEvent: {}
+[5.824229] (-) TimerEvent: {}
+[5.924606] (-) TimerEvent: {}
+[6.025014] (-) TimerEvent: {}
+[6.125424] (-) TimerEvent: {}
+[6.225861] (-) TimerEvent: {}
+[6.326296] (-) TimerEvent: {}
+[6.426720] (-) TimerEvent: {}
+[6.527101] (-) TimerEvent: {}
+[6.627498] (-) TimerEvent: {}
+[6.637424] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[6.637784] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:60:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Klat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.637949] (px4_ros_com) StderrLine: {'line': b'   60 |                         std::cout << "lat: " << msg->\x1b[01;31m\x1b[Klat\x1b[m\x1b[K  << std::endl;\n'}
+[6.638094] (px4_ros_com) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.638722] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:61:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Klon\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.638946] (px4_ros_com) StderrLine: {'line': b'   61 |                         std::cout << "lon: " << msg->\x1b[01;31m\x1b[Klon\x1b[m\x1b[K << std::endl;\n'}
+[6.639116] (px4_ros_com) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.639686] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:62:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kalt\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.639933] (px4_ros_com) StderrLine: {'line': b'   62 |                         std::cout << "alt: " << msg->\x1b[01;31m\x1b[Kalt\x1b[m\x1b[K  << std::endl;\n'}
+[6.640079] (px4_ros_com) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.640886] (px4_ros_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:63:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kalt_ellipsoid\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kaltitude_ellipsoid_m\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.641156] (px4_ros_com) StderrLine: {'line': b'   63 |                         std::cout << "alt_ellipsoid: " << msg->\x1b[01;31m\x1b[Kalt_ellipsoid\x1b[m\x1b[K << std::endl;\n'}
+[6.641305] (px4_ros_com) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.641445] (px4_ros_com) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[Kaltitude_ellipsoid_m\x1b[m\x1b[K\n'}
+[6.727620] (-) TimerEvent: {}
+[6.828029] (-) TimerEvent: {}
+[6.928445] (-) TimerEvent: {}
+[7.028850] (-) TimerEvent: {}
+[7.129264] (-) TimerEvent: {}
+[7.229701] (-) TimerEvent: {}
+[7.330142] (-) TimerEvent: {}
+[7.430601] (-) TimerEvent: {}
+[7.531032] (-) TimerEvent: {}
+[7.631468] (-) TimerEvent: {}
+[7.731895] (-) TimerEvent: {}
+[7.832326] (-) TimerEvent: {}
+[7.932734] (-) TimerEvent: {}
+[8.033144] (-) TimerEvent: {}
+[8.133547] (-) TimerEvent: {}
+[8.233944] (-) TimerEvent: {}
+[8.334347] (-) TimerEvent: {}
+[8.434747] (-) TimerEvent: {}
+[8.535151] (-) TimerEvent: {}
+[8.635541] (-) TimerEvent: {}
+[8.735944] (-) TimerEvent: {}
+[8.836341] (-) TimerEvent: {}
+[8.936745] (-) TimerEvent: {}
+[9.037154] (-) TimerEvent: {}
+[9.137579] (-) TimerEvent: {}
+[9.237992] (-) TimerEvent: {}
+[9.338404] (-) TimerEvent: {}
+[9.438829] (-) TimerEvent: {}
+[9.539220] (-) TimerEvent: {}
+[9.639633] (-) TimerEvent: {}
+[9.740039] (-) TimerEvent: {}
+[9.840457] (-) TimerEvent: {}
+[9.940863] (-) TimerEvent: {}
+[10.041275] (-) TimerEvent: {}
+[10.141683] (-) TimerEvent: {}
+[10.242058] (-) TimerEvent: {}
+[10.342461] (-) TimerEvent: {}
+[10.442878] (-) TimerEvent: {}
+[10.543292] (-) TimerEvent: {}
+[10.643706] (-) TimerEvent: {}
+[10.744170] (-) TimerEvent: {}
+[10.844591] (-) TimerEvent: {}
+[10.945016] (-) TimerEvent: {}
+[11.045709] (-) TimerEvent: {}
+[11.146366] (-) TimerEvent: {}
+[11.250651] (-) TimerEvent: {}
+[11.351158] (-) TimerEvent: {}
+[11.451936] (-) TimerEvent: {}
+[11.552701] (-) TimerEvent: {}
+[11.653447] (-) TimerEvent: {}
+[11.754064] (-) TimerEvent: {}
+[11.778189] (px4_ros_com) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/vehicle_gps_position_listener.dir/build.make:76: CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o] Error 1\n'}
+[11.779821] (px4_ros_com) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/vehicle_gps_position_listener.dir/all] Error 2\n'}
+[11.783814] (px4_ros_com) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[11.854221] (-) TimerEvent: {}
+[11.933611] (px4_ros_com) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable debug_vect_advertiser\x1b[0m\n'}
+[11.954373] (-) TimerEvent: {}
+[12.055291] (-) TimerEvent: {}
+[12.156156] (-) TimerEvent: {}
+[12.241621] (px4_ros_com) StdoutLine: {'line': b'[ 50%] Built target debug_vect_advertiser\n'}
+[12.256281] (-) TimerEvent: {}
+[12.356747] (-) TimerEvent: {}
+[12.457258] (-) TimerEvent: {}
+[12.557690] (-) TimerEvent: {}
+[12.658230] (-) TimerEvent: {}
+[12.758911] (-) TimerEvent: {}
+[12.859535] (-) TimerEvent: {}
+[12.960187] (-) TimerEvent: {}
+[13.060851] (-) TimerEvent: {}
+[13.161933] (-) TimerEvent: {}
+[13.262641] (-) TimerEvent: {}
+[13.363349] (-) TimerEvent: {}
+[13.463990] (-) TimerEvent: {}
+[13.564639] (-) TimerEvent: {}
+[13.665317] (-) TimerEvent: {}
+[13.765999] (-) TimerEvent: {}
+[13.866392] (-) TimerEvent: {}
+[13.966796] (-) TimerEvent: {}
+[14.067319] (-) TimerEvent: {}
+[14.167709] (-) TimerEvent: {}
+[14.268096] (-) TimerEvent: {}
+[14.368476] (-) TimerEvent: {}
+[14.468856] (-) TimerEvent: {}
+[14.569238] (-) TimerEvent: {}
+[14.669640] (-) TimerEvent: {}
+[14.770024] (-) TimerEvent: {}
+[14.870435] (-) TimerEvent: {}
+[14.970862] (-) TimerEvent: {}
+[15.071554] (-) TimerEvent: {}
+[15.172061] (-) TimerEvent: {}
+[15.272584] (-) TimerEvent: {}
+[15.373095] (-) TimerEvent: {}
+[15.473623] (-) TimerEvent: {}
+[15.570649] (px4_ros_com) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libframe_transforms.so\x1b[0m\n'}
+[15.573754] (-) TimerEvent: {}
+[15.674303] (-) TimerEvent: {}
+[15.774803] (-) TimerEvent: {}
+[15.875345] (-) TimerEvent: {}
+[15.975866] (-) TimerEvent: {}
+[15.980386] (px4_ros_com) StdoutLine: {'line': b'[ 60%] Built target frame_transforms\n'}
+[16.077519] (-) TimerEvent: {}
+[16.177862] (-) TimerEvent: {}
+[16.278200] (-) TimerEvent: {}
+[16.378534] (-) TimerEvent: {}
+[16.478887] (-) TimerEvent: {}
+[16.579292] (-) TimerEvent: {}
+[16.679617] (-) TimerEvent: {}
+[16.779981] (-) TimerEvent: {}
+[16.880344] (-) TimerEvent: {}
+[16.980708] (-) TimerEvent: {}
+[17.081074] (-) TimerEvent: {}
+[17.181435] (-) TimerEvent: {}
+[17.281855] (-) TimerEvent: {}
+[17.382218] (-) TimerEvent: {}
+[17.482546] (-) TimerEvent: {}
+[17.582893] (-) TimerEvent: {}
+[17.683256] (-) TimerEvent: {}
+[17.783655] (-) TimerEvent: {}
+[17.787081] (px4_ros_com) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable sensor_combined_listener\x1b[0m\n'}
+[17.883802] (-) TimerEvent: {}
+[17.984226] (-) TimerEvent: {}
+[18.084567] (-) TimerEvent: {}
+[18.184916] (-) TimerEvent: {}
+[18.285280] (-) TimerEvent: {}
+[18.325956] (px4_ros_com) StdoutLine: {'line': b'[ 70%] Built target sensor_combined_listener\n'}
+[18.327804] (px4_ros_com) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.330485] (px4_ros_com) CommandEnded: {'returncode': 2}
+[18.385371] (-) TimerEvent: {}
+[18.386921] (px4_ros_com) JobEnded: {'identifier': 'px4_ros_com', 'rc': 2}
+[18.397788] (-) EventReactorShutdown: {}

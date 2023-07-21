@@ -1,0 +1,7 @@
+[01m[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:[m[K In lambda function:
+[01m[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:62:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kaltitude[m[K’
+   62 |                         std::cout << "alt: " << msg->[01;31m[Kaltitude[m[K  << std::endl;
+      |                                                      [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/vehicle_gps_position_listener.dir/build.make:76: CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/vehicle_gps_position_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

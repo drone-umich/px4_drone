@@ -1,0 +1,87 @@
+[0.021s] Invoking command in '/home/albertocastro/px4_drone/build/px4_ros_com': AMENT_PREFIX_PATH=/home/albertocastro/px4_drone/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/albertocastro/px4_drone/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/albertocastro/px4_drone/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertocastro/px4_drone/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/albertocastro/px4_drone/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/albertocastro/px4_drone/install/px4_ros_com
+[0.086s] -- The C compiler identification is GNU 11.3.0
+[0.154s] -- The CXX compiler identification is GNU 11.3.0
+[0.163s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.256s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.262s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.370s] -- Detecting CXX compile features - done
+[0.373s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.831s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.936s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.978s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.984s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.994s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.011s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.061s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.074s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.078s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.246s] -- Found px4_msgs: 2.0.1 (/home/albertocastro/px4_drone/install/px4_msgs/share/px4_msgs/cmake)
+[1.291s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.429s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.434s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.599s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.639s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.723s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.748s] -- Looking for pthread.h
+[1.835s] -- Looking for pthread.h - found
+[1.836s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.923s] -- Found Threads: TRUE  
+[2.136s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.271s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.469s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.479s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.482s] -- Configured cppcheck include dirs: /home/albertocastro/px4_drone/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/albertocastro/px4_drone/src/px4_ros_com/include/px4_ros_com>
+[2.482s] -- Configured cppcheck exclude dirs and/or files: 
+[2.489s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.491s] -- Configured cpplint exclude dirs and/or files: 
+[2.495s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.498s] -- Added test 'lint_cmake' to check CMake code style
+[2.504s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.516s] -- Added test 'uncrustify' to check C / C++ code style
+[2.516s] -- Configured uncrustify additional arguments: 
+[2.522s] -- Added test 'xmllint' to check XML markup files
+[2.526s] -- Configuring done
+[2.564s] -- Generating done
+[2.567s] -- Build files have been written to: /home/albertocastro/px4_drone/build/px4_ros_com
+[2.588s] Invoked command in '/home/albertocastro/px4_drone/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/albertocastro/px4_drone/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/albertocastro/px4_drone/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/albertocastro/px4_drone/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertocastro/px4_drone/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/albertocastro/px4_drone/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/albertocastro/px4_drone/install/px4_ros_com
+[2.591s] Invoking command in '/home/albertocastro/px4_drone/build/px4_ros_com': AMENT_PREFIX_PATH=/home/albertocastro/px4_drone/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/albertocastro/px4_drone/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/albertocastro/px4_drone/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertocastro/px4_drone/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/albertocastro/px4_drone/build/px4_ros_com -- -j4 -l4
+[2.668s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[2.676s] [ 20%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[2.679s] [ 30%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[2.694s] [ 40%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[8.184s] [01m[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:[m[K In lambda function:
+[8.185s] [01m[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:60:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klat[m[K’
+[8.185s]    60 |                         std::cout << "lat: " << msg->[01;31m[Klat[m[K  << std::endl;
+[8.185s]       |                                                      [01;31m[K^~~[m[K
+[8.185s] [01m[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:61:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klon[m[K’
+[8.185s]    61 |                         std::cout << "lon: " << msg->[01;31m[Klon[m[K << std::endl;
+[8.186s]       |                                                      [01;31m[K^~~[m[K
+[8.186s] [01m[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:62:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kalt[m[K’
+[8.186s]    62 |                         std::cout << "alt: " << msg->[01;31m[Kalt[m[K  << std::endl;
+[8.186s]       |                                                      [01;31m[K^~~[m[K
+[8.186s] [01m[K/home/albertocastro/px4_drone/src/px4_ros_com/src/examples/listeners/vehicle_gps_position_listener.cpp:63:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct px4_msgs::msg::SensorGps_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kalt_ellipsoid[m[K’; did you mean ‘[01m[Kaltitude_ellipsoid_m[m[K’?
+[8.186s]    63 |                         std::cout << "alt_ellipsoid: " << msg->[01;31m[Kalt_ellipsoid[m[K << std::endl;
+[8.187s]       |                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[8.187s]       |                                                                [32m[Kaltitude_ellipsoid_m[m[K
+[13.044s] [ 50%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[13.557s] [ 50%] Built target debug_vect_advertiser
+[13.599s] [ 60%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[14.124s] gmake[2]: *** [CMakeFiles/vehicle_gps_position_listener.dir/build.make:76: CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o] Error 1
+[14.124s] gmake[1]: *** [CMakeFiles/Makefile2:197: CMakeFiles/vehicle_gps_position_listener.dir/all] Error 2
+[14.125s] gmake[1]: *** Waiting for unfinished jobs....
+[19.105s] [ 70%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[19.752s] [ 70%] Built target frame_transforms
+[19.926s] [ 80%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[20.543s] [ 80%] Built target sensor_combined_listener
+[22.653s] [ 90%] [32m[1mLinking CXX executable offboard_control[0m
+[22.949s] [ 90%] Built target offboard_control
+[22.951s] gmake: *** [Makefile:146: all] Error 2
+[22.954s] Invoked command in '/home/albertocastro/px4_drone/build/px4_ros_com' returned '2': AMENT_PREFIX_PATH=/home/albertocastro/px4_drone/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/albertocastro/px4_drone/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/albertocastro/px4_drone/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albertocastro/px4_drone/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/albertocastro/px4_drone/build/px4_ros_com -- -j4 -l4
