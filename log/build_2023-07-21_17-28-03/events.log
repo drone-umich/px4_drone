@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000269] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.000354] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.000406] (px4_control) JobQueued: {'identifier': 'px4_control', 'dependencies': OrderedDict()}
+[0.000452] (px4_control) JobStarted: {'identifier': 'px4_control'}
+[0.098402] (-) TimerEvent: {}
+[0.198793] (-) TimerEvent: {}
+[0.299295] (-) TimerEvent: {}
+[0.399598] (-) TimerEvent: {}
+[0.499971] (-) TimerEvent: {}
+[0.600356] (-) TimerEvent: {}
+[0.700742] (-) TimerEvent: {}
+[0.801192] (-) TimerEvent: {}
+[0.901577] (-) TimerEvent: {}
+[1.001947] (-) TimerEvent: {}
+[1.102420] (-) TimerEvent: {}
+[1.202854] (-) TimerEvent: {}
+[1.204390] (px4_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/px4_control', 'build', '--build-base', '/home/albertocastro/px4_drone/build/px4_control/build', 'install', '--record', '/home/albertocastro/px4_drone/build/px4_control/install.log', '--single-version-externally-managed'], 'cwd': '/home/albertocastro/px4_drone/src/px4_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'albertocastro', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/albertocastro', 'OLDPWD': '/home/albertocastro', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2256', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'albertocastro', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'albertocastro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/albertocastro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/albertocastro-MacBookAir:@/tmp/.ICE-unix/2204,unix/albertocastro-MacBookAir:/tmp/.ICE-unix/2204', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8b8c9f53_be80_4416_ae02_7c4c9f17b914', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V1E371', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.179', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/albertocastro/px4_drone/build/px4_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/albertocastro/px4_drone/build/px4_control/prefix_override:/home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.302973] (-) TimerEvent: {}
+[1.403403] (-) TimerEvent: {}
+[1.486417] (px4_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.487118] (px4_control) StdoutLine: {'line': b'creating ../../build/px4_control/px4_control.egg-info\n'}
+[1.503502] (-) TimerEvent: {}
+[1.505689] (px4_control) StdoutLine: {'line': b'writing ../../build/px4_control/px4_control.egg-info/PKG-INFO\n'}
+[1.506722] (px4_control) StdoutLine: {'line': b'writing dependency_links to ../../build/px4_control/px4_control.egg-info/dependency_links.txt\n'}
+[1.506944] (px4_control) StdoutLine: {'line': b'writing requirements to ../../build/px4_control/px4_control.egg-info/requires.txt\n'}
+[1.507238] (px4_control) StdoutLine: {'line': b'writing top-level names to ../../build/px4_control/px4_control.egg-info/top_level.txt\n'}
+[1.507422] (px4_control) StdoutLine: {'line': b"writing manifest file '../../build/px4_control/px4_control.egg-info/SOURCES.txt'\n"}
+[1.547731] (px4_control) StdoutLine: {'line': b"reading manifest file '../../build/px4_control/px4_control.egg-info/SOURCES.txt'\n"}
+[1.549485] (px4_control) StdoutLine: {'line': b"writing manifest file '../../build/px4_control/px4_control.egg-info/SOURCES.txt'\n"}
+[1.549880] (px4_control) StdoutLine: {'line': b'running build\n'}
+[1.550112] (px4_control) StdoutLine: {'line': b'running build_py\n'}
+[1.550502] (px4_control) StdoutLine: {'line': b'creating /home/albertocastro/px4_drone/build/px4_control/build\n'}
+[1.550729] (px4_control) StdoutLine: {'line': b'creating /home/albertocastro/px4_drone/build/px4_control/build/lib\n'}
+[1.551030] (px4_control) StdoutLine: {'line': b'creating /home/albertocastro/px4_drone/build/px4_control/build/lib/px4_control\n'}
+[1.551260] (px4_control) StdoutLine: {'line': b'copying px4_control/drone1.py -> /home/albertocastro/px4_drone/build/px4_control/build/lib/px4_control\n'}
+[1.551551] (px4_control) StdoutLine: {'line': b'copying px4_control/control_keyboard.py -> /home/albertocastro/px4_drone/build/px4_control/build/lib/px4_control\n'}
+[1.551753] (px4_control) StdoutLine: {'line': b'copying px4_control/com_lib.py -> /home/albertocastro/px4_drone/build/px4_control/build/lib/px4_control\n'}
+[1.552028] (px4_control) StdoutLine: {'line': b'copying px4_control/__init__.py -> /home/albertocastro/px4_drone/build/px4_control/build/lib/px4_control\n'}
+[1.552379] (px4_control) StdoutLine: {'line': b'running install\n'}
+[1.553800] (px4_control) StderrLine: {'line': b'/home/albertocastro/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.554052] (px4_control) StderrLine: {'line': b'!!\n'}
+[1.554238] (px4_control) StderrLine: {'line': b'\n'}
+[1.554399] (px4_control) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.554560] (px4_control) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.554718] (px4_control) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.554882] (px4_control) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.555081] (px4_control) StderrLine: {'line': b'\n'}
+[1.555248] (px4_control) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.555425] (px4_control) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.555590] (px4_control) StderrLine: {'line': b'\n'}
+[1.555747] (px4_control) StderrLine: {'line': b'!!\n'}
+[1.555901] (px4_control) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.561764] (px4_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.581323] (px4_control) StdoutLine: {'line': b'creating /home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages/px4_control\n'}
+[1.581798] (px4_control) StdoutLine: {'line': b'copying /home/albertocastro/px4_drone/build/px4_control/build/lib/px4_control/drone1.py -> /home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages/px4_control\n'}
+[1.582031] (px4_control) StdoutLine: {'line': b'copying /home/albertocastro/px4_drone/build/px4_control/build/lib/px4_control/control_keyboard.py -> /home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages/px4_control\n'}
+[1.582315] (px4_control) StdoutLine: {'line': b'copying /home/albertocastro/px4_drone/build/px4_control/build/lib/px4_control/com_lib.py -> /home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages/px4_control\n'}
+[1.582560] (px4_control) StdoutLine: {'line': b'copying /home/albertocastro/px4_drone/build/px4_control/build/lib/px4_control/__init__.py -> /home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages/px4_control\n'}
+[1.583300] (px4_control) StdoutLine: {'line': b'byte-compiling /home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages/px4_control/drone1.py to drone1.cpython-310.pyc\n'}
+[1.584017] (px4_control) StdoutLine: {'line': b'byte-compiling /home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages/px4_control/control_keyboard.py to control_keyboard.cpython-310.pyc\n'}
+[1.586083] (px4_control) StdoutLine: {'line': b'byte-compiling /home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages/px4_control/com_lib.py to com_lib.cpython-310.pyc\n'}
+[1.587427] (px4_control) StdoutLine: {'line': b'byte-compiling /home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages/px4_control/__init__.py to __init__.cpython-310.pyc\n'}
+[1.587788] (px4_control) StdoutLine: {'line': b'running install_data\n'}
+[1.603607] (-) TimerEvent: {}
+[1.606971] (px4_control) StdoutLine: {'line': b'copying resource/px4_control -> /home/albertocastro/px4_drone/install/px4_control/share/ament_index/resource_index/packages\n'}
+[1.607413] (px4_control) StdoutLine: {'line': b'copying package.xml -> /home/albertocastro/px4_drone/install/px4_control/share/px4_control\n'}
+[1.607719] (px4_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.627385] (px4_control) StdoutLine: {'line': b'Copying ../../build/px4_control/px4_control.egg-info to /home/albertocastro/px4_drone/install/px4_control/lib/python3.10/site-packages/px4_control-0.0.0-py3.10.egg-info\n'}
+[1.628662] (px4_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.703726] (-) TimerEvent: {}
+[1.804065] (-) TimerEvent: {}
+[1.854440] (px4_control) StdoutLine: {'line': b"writing list of installed files to '/home/albertocastro/px4_drone/build/px4_control/install.log'\n"}
+[1.891977] (px4_control) CommandEnded: {'returncode': 0}
+[1.904178] (-) TimerEvent: {}
+[1.933850] (px4_control) JobEnded: {'identifier': 'px4_control', 'rc': 0}
+[1.935189] (-) EventReactorShutdown: {}

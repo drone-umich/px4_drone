@@ -1,0 +1,3 @@
+[console_scripts]
+drone1 = px4_control.drone1:main
+keyboard = px4_control.control_keyboard:main
