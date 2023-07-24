@@ -134,6 +134,8 @@ class DRONE1(Node): # MODIFY NAME
         self.vehicle_command_publisher.publish(msg)
 
     def timer_callback(self) -> None:
+
+        #self.get_logger().info(self.keyboard.data)
         
         self.publish_offboard_control_heartbeat_signal()
 
@@ -154,7 +156,6 @@ class DRONE1(Node): # MODIFY NAME
                 self.keyboard.data = "none"
 
         elif self.vehicle_status.arming_state == VehicleStatus.ARMING_STATE_ARMED:
-
             if self.keyboard.data == "arm":
                 self.get_logger().info("Drone already ARMED")
                 self.keyboard.data = "none"

@@ -12,11 +12,7 @@ px4_control/__init__.py
 px4_control/com_lib.py
 px4_control/control_keyboard.py
 px4_control/drone1.py
-px4_control.egg-info/PKG-INFO
-px4_control.egg-info/SOURCES.txt
-px4_control.egg-info/dependency_links.txt
-px4_control.egg-info/entry_points.txt
-px4_control.egg-info/requires.txt
-px4_control.egg-info/top_level.txt
-px4_control.egg-info/zip-safe
 resource/px4_control
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
