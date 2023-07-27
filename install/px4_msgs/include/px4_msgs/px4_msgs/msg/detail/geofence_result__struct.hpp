@@ -191,18 +191,36 @@ using GeofenceResult =
   px4_msgs::msg::GeofenceResult_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t GeofenceResult_<ContainerAllocator>::GF_ACTION_NONE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t GeofenceResult_<ContainerAllocator>::GF_ACTION_WARN;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t GeofenceResult_<ContainerAllocator>::GF_ACTION_LOITER;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t GeofenceResult_<ContainerAllocator>::GF_ACTION_RTL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t GeofenceResult_<ContainerAllocator>::GF_ACTION_TERMINATE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t GeofenceResult_<ContainerAllocator>::GF_ACTION_LAND;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

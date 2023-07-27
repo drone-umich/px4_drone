@@ -143,12 +143,21 @@ using LandingGear =
   px4_msgs::msg::LandingGear_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int8_t LandingGear_<ContainerAllocator>::GEAR_UP;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int8_t LandingGear_<ContainerAllocator>::GEAR_DOWN;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int8_t LandingGear_<ContainerAllocator>::GEAR_KEEP;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

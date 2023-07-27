@@ -199,12 +199,21 @@ using TimesyncStatus =
   px4_msgs::msg::TimesyncStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t TimesyncStatus_<ContainerAllocator>::SOURCE_PROTOCOL_UNKNOWN;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t TimesyncStatus_<ContainerAllocator>::SOURCE_PROTOCOL_MAVLINK;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t TimesyncStatus_<ContainerAllocator>::SOURCE_PROTOCOL_DDS;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

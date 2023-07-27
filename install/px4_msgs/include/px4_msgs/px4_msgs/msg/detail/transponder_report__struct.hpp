@@ -378,64 +378,151 @@ using TransponderReport =
   px4_msgs::msg::TransponderReport_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::PX4_ADSB_FLAGS_VALID_COORDS;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::PX4_ADSB_FLAGS_VALID_ALTITUDE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::PX4_ADSB_FLAGS_VALID_HEADING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::PX4_ADSB_FLAGS_VALID_VELOCITY;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::PX4_ADSB_FLAGS_VALID_CALLSIGN;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::PX4_ADSB_FLAGS_VALID_SQUAWK;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::PX4_ADSB_FLAGS_RETRANSLATE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_NO_INFO;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_LIGHT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_SMALL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_LARGE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_HIGH_VORTEX_LARGE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_HEAVY;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_HIGHLY_MANUV;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_ROTOCRAFT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_UNASSIGNED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_GLIDER;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_LIGHTER_AIR;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_PARACHUTE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_ULTRA_LIGHT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_UNASSIGNED2;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_UAV;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_SPACE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_UNASSGINED3;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_EMERGENCY_SURFACE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_SERVICE_SURFACE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_POINT_OBSTACLE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint16_t TransponderReport_<ContainerAllocator>::ADSB_EMITTER_TYPE_ENUM_END;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t TransponderReport_<ContainerAllocator>::ORB_QUEUE_LENGTH;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

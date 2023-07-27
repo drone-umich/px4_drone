@@ -327,42 +327,96 @@ using InputRc =
   px4_msgs::msg::InputRc_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_UNKNOWN;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4FMU_PPM;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4IO_PPM;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4IO_SPEKTRUM;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4IO_SBUS;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4IO_ST24;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_MAVLINK;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_QURT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4FMU_SPEKTRUM;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4FMU_SBUS;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4FMU_ST24;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4FMU_SUMD;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4FMU_DSM;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4IO_SUMD;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4FMU_CRSF;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_SOURCE_PX4FMU_GHST;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InputRc_<ContainerAllocator>::RC_INPUT_MAX_CHANNELS;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int8_t InputRc_<ContainerAllocator>::RSSI_MAX;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

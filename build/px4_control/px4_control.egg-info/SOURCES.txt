@@ -12,6 +12,7 @@ px4_control/__init__.py
 px4_control/com_lib.py
 px4_control/control_keyboard.py
 px4_control/drone1.py
+px4_control/drone2.py
 resource/px4_control
 test/test_copyright.py
 test/test_flake8.py

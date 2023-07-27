@@ -217,16 +217,31 @@ using OrbitStatus =
   px4_msgs::msg::OrbitStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t OrbitStatus_<ContainerAllocator>::ORBIT_YAW_BEHAVIOUR_HOLD_FRONT_TO_CIRCLE_CENTER;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t OrbitStatus_<ContainerAllocator>::ORBIT_YAW_BEHAVIOUR_HOLD_INITIAL_HEADING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t OrbitStatus_<ContainerAllocator>::ORBIT_YAW_BEHAVIOUR_UNCONTROLLED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t OrbitStatus_<ContainerAllocator>::ORBIT_YAW_BEHAVIOUR_HOLD_FRONT_TANGENT_TO_CIRCLE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t OrbitStatus_<ContainerAllocator>::ORBIT_YAW_BEHAVIOUR_RC_CONTROLLED;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

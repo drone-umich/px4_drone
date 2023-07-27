@@ -219,16 +219,31 @@ using ControlAllocatorStatus =
   px4_msgs::msg::ControlAllocatorStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int8_t ControlAllocatorStatus_<ContainerAllocator>::ACTUATOR_SATURATION_OK;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int8_t ControlAllocatorStatus_<ContainerAllocator>::ACTUATOR_SATURATION_UPPER_DYN;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int8_t ControlAllocatorStatus_<ContainerAllocator>::ACTUATOR_SATURATION_UPPER;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int8_t ControlAllocatorStatus_<ContainerAllocator>::ACTUATOR_SATURATION_LOWER_DYN;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int8_t ControlAllocatorStatus_<ContainerAllocator>::ACTUATOR_SATURATION_LOWER;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

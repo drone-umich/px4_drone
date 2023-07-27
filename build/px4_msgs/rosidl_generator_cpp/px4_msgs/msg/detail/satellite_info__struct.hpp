@@ -228,8 +228,11 @@ using SatelliteInfo =
   px4_msgs::msg::SatelliteInfo_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t SatelliteInfo_<ContainerAllocator>::SAT_INFO_MAX_SATELLITES;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

@@ -175,16 +175,31 @@ using PositionControllerLandingStatus =
   px4_msgs::msg::PositionControllerLandingStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionControllerLandingStatus_<ContainerAllocator>::NOT_ABORTED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionControllerLandingStatus_<ContainerAllocator>::ABORTED_BY_OPERATOR;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionControllerLandingStatus_<ContainerAllocator>::TERRAIN_NOT_FOUND;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionControllerLandingStatus_<ContainerAllocator>::TERRAIN_TIMEOUT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionControllerLandingStatus_<ContainerAllocator>::UNKNOWN_ABORT_CRITERION;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

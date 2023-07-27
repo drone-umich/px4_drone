@@ -284,12 +284,21 @@ using VehicleImu =
   px4_msgs::msg::VehicleImu_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t VehicleImu_<ContainerAllocator>::CLIPPING_X;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t VehicleImu_<ContainerAllocator>::CLIPPING_Y;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t VehicleImu_<ContainerAllocator>::CLIPPING_Z;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

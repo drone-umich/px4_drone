@@ -681,18 +681,36 @@ using TelemetryStatus =
   px4_msgs::msg::TelemetryStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t TelemetryStatus_<ContainerAllocator>::LINK_TYPE_GENERIC;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t TelemetryStatus_<ContainerAllocator>::LINK_TYPE_UBIQUITY_BULLET;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t TelemetryStatus_<ContainerAllocator>::LINK_TYPE_WIRE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t TelemetryStatus_<ContainerAllocator>::LINK_TYPE_USB;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t TelemetryStatus_<ContainerAllocator>::LINK_TYPE_IRIDIUM;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t TelemetryStatus_<ContainerAllocator>::HEARTBEAT_TIMEOUT_US;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

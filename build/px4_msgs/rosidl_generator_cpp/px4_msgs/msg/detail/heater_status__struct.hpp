@@ -281,10 +281,16 @@ using HeaterStatus =
   px4_msgs::msg::HeaterStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t HeaterStatus_<ContainerAllocator>::MODE_GPIO;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t HeaterStatus_<ContainerAllocator>::MODE_PX4IO;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

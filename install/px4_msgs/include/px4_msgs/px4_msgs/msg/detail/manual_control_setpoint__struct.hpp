@@ -349,22 +349,46 @@ using ManualControlSetpoint =
   px4_msgs::msg::ManualControlSetpoint_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t ManualControlSetpoint_<ContainerAllocator>::SOURCE_UNKNOWN;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t ManualControlSetpoint_<ContainerAllocator>::SOURCE_RC;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t ManualControlSetpoint_<ContainerAllocator>::SOURCE_MAVLINK_0;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t ManualControlSetpoint_<ContainerAllocator>::SOURCE_MAVLINK_1;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t ManualControlSetpoint_<ContainerAllocator>::SOURCE_MAVLINK_2;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t ManualControlSetpoint_<ContainerAllocator>::SOURCE_MAVLINK_3;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t ManualControlSetpoint_<ContainerAllocator>::SOURCE_MAVLINK_4;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t ManualControlSetpoint_<ContainerAllocator>::SOURCE_MAVLINK_5;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

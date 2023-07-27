@@ -40,53 +40,9 @@ max_serialized_size_PositionSetpoint(
 }  // namespace msg
 }  // namespace px4_msgs
 
-namespace px4_msgs
-{
-namespace msg
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const px4_msgs::msg::PositionSetpoint &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  px4_msgs::msg::PositionSetpoint &);
-size_t get_serialized_size(
-  const px4_msgs::msg::PositionSetpoint &,
-  size_t current_alignment);
-size_t
-max_serialized_size_PositionSetpoint(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace msg
-}  // namespace px4_msgs
+// functions for px4_msgs::msg::PositionSetpoint already declared above
 
-namespace px4_msgs
-{
-namespace msg
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const px4_msgs::msg::PositionSetpoint &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  px4_msgs::msg::PositionSetpoint &);
-size_t get_serialized_size(
-  const px4_msgs::msg::PositionSetpoint &,
-  size_t current_alignment);
-size_t
-max_serialized_size_PositionSetpoint(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace msg
-}  // namespace px4_msgs
+// functions for px4_msgs::msg::PositionSetpoint already declared above
 
 
 namespace px4_msgs

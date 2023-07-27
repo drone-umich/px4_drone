@@ -209,8 +209,11 @@ using Ekf2Timestamps =
   px4_msgs::msg::Ekf2Timestamps_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int16_t Ekf2Timestamps_<ContainerAllocator>::RELATIVE_TIMESTAMP_INVALID;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

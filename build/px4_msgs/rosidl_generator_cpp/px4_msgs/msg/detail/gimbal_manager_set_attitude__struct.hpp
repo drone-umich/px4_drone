@@ -273,16 +273,31 @@ using GimbalManagerSetAttitude =
   px4_msgs::msg::GimbalManagerSetAttitude_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalManagerSetAttitude_<ContainerAllocator>::GIMBAL_MANAGER_FLAGS_RETRACT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalManagerSetAttitude_<ContainerAllocator>::GIMBAL_MANAGER_FLAGS_NEUTRAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalManagerSetAttitude_<ContainerAllocator>::GIMBAL_MANAGER_FLAGS_ROLL_LOCK;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalManagerSetAttitude_<ContainerAllocator>::GIMBAL_MANAGER_FLAGS_PITCH_LOCK;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalManagerSetAttitude_<ContainerAllocator>::GIMBAL_MANAGER_FLAGS_YAW_LOCK;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

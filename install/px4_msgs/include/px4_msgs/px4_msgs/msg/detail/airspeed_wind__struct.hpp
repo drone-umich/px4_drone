@@ -313,14 +313,26 @@ using AirspeedWind =
   px4_msgs::msg::AirspeedWind_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AirspeedWind_<ContainerAllocator>::SOURCE_AS_BETA_ONLY;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AirspeedWind_<ContainerAllocator>::SOURCE_AS_SENSOR_1;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AirspeedWind_<ContainerAllocator>::SOURCE_AS_SENSOR_2;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AirspeedWind_<ContainerAllocator>::SOURCE_AS_SENSOR_3;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

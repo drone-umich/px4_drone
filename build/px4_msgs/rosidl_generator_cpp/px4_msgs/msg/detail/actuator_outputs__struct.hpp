@@ -155,10 +155,16 @@ using ActuatorOutputs =
   px4_msgs::msg::ActuatorOutputs_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t ActuatorOutputs_<ContainerAllocator>::NUM_ACTUATOR_OUTPUTS;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t ActuatorOutputs_<ContainerAllocator>::NUM_ACTUATOR_OUTPUT_GROUPS;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

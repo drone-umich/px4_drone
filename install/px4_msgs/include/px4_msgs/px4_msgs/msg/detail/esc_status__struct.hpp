@@ -225,20 +225,41 @@ using EscStatus =
   px4_msgs::msg::EscStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t EscStatus_<ContainerAllocator>::CONNECTED_ESC_MAX;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t EscStatus_<ContainerAllocator>::ESC_CONNECTION_TYPE_PPM;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t EscStatus_<ContainerAllocator>::ESC_CONNECTION_TYPE_SERIAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t EscStatus_<ContainerAllocator>::ESC_CONNECTION_TYPE_ONESHOT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t EscStatus_<ContainerAllocator>::ESC_CONNECTION_TYPE_I2C;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t EscStatus_<ContainerAllocator>::ESC_CONNECTION_TYPE_CAN;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t EscStatus_<ContainerAllocator>::ESC_CONNECTION_TYPE_DSHOT;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

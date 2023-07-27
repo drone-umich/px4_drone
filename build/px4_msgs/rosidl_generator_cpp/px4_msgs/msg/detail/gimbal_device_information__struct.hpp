@@ -359,30 +359,66 @@ using GimbalDeviceInformation =
   px4_msgs::msg::GimbalDeviceInformation_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_RETRACT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_NEUTRAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_ROLL_AXIS;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_ROLL_FOLLOW;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_ROLL_LOCK;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_PITCH_AXIS;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_PITCH_FOLLOW;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_PITCH_LOCK;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_YAW_AXIS;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_YAW_FOLLOW;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_HAS_YAW_LOCK;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t GimbalDeviceInformation_<ContainerAllocator>::GIMBAL_DEVICE_CAP_FLAGS_SUPPORTS_INFINITE_YAW;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

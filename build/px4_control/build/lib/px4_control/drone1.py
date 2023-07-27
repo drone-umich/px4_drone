@@ -68,20 +68,17 @@ class DRONE1(Node): # MODIFY NAME
 
     def arm(self):
         """Send an arm command to the vehicle."""
-        self.publish_vehicle_command(
-            VehicleCommand.VEHICLE_CMD_COMPONENT_ARM_DISARM, param1=1.0)
+        self.publish_vehicle_command(VehicleCommand.VEHICLE_CMD_COMPONENT_ARM_DISARM, param1=1.0)
         self.get_logger().info('Arm command sent')
 
     def disarm(self):
         """Send a disarm command to the vehicle."""
-        self.publish_vehicle_command(
-            VehicleCommand.VEHICLE_CMD_COMPONENT_ARM_DISARM, param1=0.0)
+        self.publish_vehicle_command(VehicleCommand.VEHICLE_CMD_COMPONENT_ARM_DISARM, param1=0.0)
         self.get_logger().info('Disarm command sent')
 
     def engage_offboard_mode(self):
         """Switch to offboard mode."""
-        self.publish_vehicle_command(
-            VehicleCommand.VEHICLE_CMD_DO_SET_MODE, param1=1.0, param2=6.0)
+        self.publish_vehicle_command(VehicleCommand.VEHICLE_CMD_DO_SET_MODE, param1=1.0, param2=6.0)
         self.get_logger().info("Switching to offboard mode")
 
     def land(self):
@@ -149,13 +146,15 @@ class DRONE1(Node): # MODIFY NAME
             print("Speed:", self.v)
             self.keyboard.data = "none"
 
-        if self.vehicle_status.arming_state == VehicleStatus.ARMING_STATE_STANDBY:
+        #if self.vehicle_status.arming_state == VehicleStatus.ARMING_STATE_STANDBY:
+        if self.keyboard.data:
             if self.keyboard.data == "arm":
                 self.arm()
                 self.get_logger().info("Sent ARM command")
                 self.keyboard.data = "none"
 
-        elif self.vehicle_status.arming_state == VehicleStatus.ARMING_STATE_ARMED:
+        #elif self.vehicle_status.arming_state == VehicleStatus.ARMING_STATE_ARMED:
+        elif self.keyboard.data:
             if self.keyboard.data == "arm":
                 self.get_logger().info("Drone already ARMED")
                 self.keyboard.data = "none"
@@ -202,7 +201,7 @@ class DRONE1(Node): # MODIFY NAME
                     vx = self.v * math.cos(self.vehicle_local_position.heading + math.pi/2)
                     vy = self.v * math.sin(self.vehicle_local_position.heading + math.pi/2)
                     vz = 0.0
-                    yawspeed = 0.0
+                    yawspeed = 0.03
                     self.get_logger().info("Set speed to: [" + str(vx) + ", " + str(vy) + ", " + str(vz) + "]")
                     self.publish_movement_setpoint(vx, vy, vz, yawspeed)
                     self.keyboard.data = "none"

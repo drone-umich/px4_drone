@@ -5,9 +5,7 @@ import pygame
 import time
 import math
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy, DurabilityPolicy
-from std_msgs.msg import Empty, UInt8, UInt8, Bool, String
-from geometry_msgs.msg import Twist, TransformStamped, PoseStamped, Quaternion
-from px4_msgs.msg import OffboardControlMode, TrajectorySetpoint, VehicleCommand, VehicleLocalPosition, VehicleStatus
+from std_msgs.msg import String
 
 
 class Control_Keyboard(Node): 
@@ -24,9 +22,9 @@ class Control_Keyboard(Node):
         )
 
         self.setup_publishers(qos_profile)
-        #self.setup_subscribers(qos_profile)
+
         pygame.init()
-        self.screen = pygame.display.set_mode((640, 480))
+        self.screen = pygame.display.set_mode((320, 240))
         pygame.display.set_caption("Keyboard Control")
         self.timer = self.create_timer(0.1, self.update)  # 10 FPS
 
@@ -47,9 +45,6 @@ class Control_Keyboard(Node):
 
         self.pub_control2 = self.create_publisher(String, 'drone2/keyboard', 1)
 
-    #def setup_subscribers(self, qos_profile):
-        #self.vehicle_local_position_subscriber = self.create_subscription(VehicleLocalPosition, '/fmu/out/vehicle_local_position', self.vehicle_local_position_callback, qos_profile)
-        #self.vehicle_status_subscriber = self.create_subscription(VehicleStatus, '/fmu/out/vehicle_status', self.vehicle_status_callback, qos_profile)
         
 
     def send_stop_msg1(self):
@@ -188,20 +183,20 @@ class Control_Keyboard(Node):
                             self.get_logger().info('Drone 2: Rotar izquierda')
                     elif event.key == pygame.K_t:
                         if self.drone1_active:
-                            msg.data = "t"
+                            msg.data = "takeoff"
                             self.pub_control1.publish(msg)
                             self.get_logger().info('Drone 1: Takeoff')
                         if self.drone2_active:
-                            msg.data = "t"
+                            msg.data = "takeoff"
                             self.pub_control2.publish(msg)
                             self.get_logger().info('Drone 2: Takeoff')                            
                     elif event.key == pygame.K_l:
                         if self.drone1_active:
-                            msg.data = "l"
+                            msg.data = "land"
                             self.pub_control1.publish(msg)
                             self.get_logger().info('Drone 1: Land')
                         if self.drone2_active:
-                            msg.data = "l"
+                            msg.data = "land"
                             self.pub_control2.publish(msg)
                             self.get_logger().info('Drone 2: Land')
                     elif event.key == pygame.K_c:
@@ -216,7 +211,7 @@ class Control_Keyboard(Node):
             elif event.type == pygame.KEYUP:  # Evento al soltar una tecla
                 if event.key in [pygame.K_UP, pygame.K_DOWN, pygame.K_LEFT, pygame.K_RIGHT, pygame.K_w, pygame.K_s, pygame.K_d, pygame.K_a, pygame.K_t, pygame.K_l]:
                     self.get_logger().info('stop')
-                    msg.data == 'stop'
+                    msg.data = 'stop'
                     if self.drone1_active and self.drone2_active:
                         self.pub_control1.publish(msg)
                         self.pub_control2.publish(msg)

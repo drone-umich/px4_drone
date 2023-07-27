@@ -143,12 +143,21 @@ using LaunchDetectionStatus =
   px4_msgs::msg::LaunchDetectionStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t LaunchDetectionStatus_<ContainerAllocator>::STATE_WAITING_FOR_LAUNCH;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t LaunchDetectionStatus_<ContainerAllocator>::STATE_LAUNCH_DETECTED_DISABLED_MOTOR;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t LaunchDetectionStatus_<ContainerAllocator>::STATE_FLYING;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

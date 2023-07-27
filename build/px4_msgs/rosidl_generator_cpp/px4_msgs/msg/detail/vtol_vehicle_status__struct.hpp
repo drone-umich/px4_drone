@@ -161,16 +161,31 @@ using VtolVehicleStatus =
   px4_msgs::msg::VtolVehicleStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t VtolVehicleStatus_<ContainerAllocator>::VEHICLE_VTOL_STATE_UNDEFINED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t VtolVehicleStatus_<ContainerAllocator>::VEHICLE_VTOL_STATE_TRANSITION_TO_FW;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t VtolVehicleStatus_<ContainerAllocator>::VEHICLE_VTOL_STATE_TRANSITION_TO_MC;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t VtolVehicleStatus_<ContainerAllocator>::VEHICLE_VTOL_STATE_MC;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t VtolVehicleStatus_<ContainerAllocator>::VEHICLE_VTOL_STATE_FW;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

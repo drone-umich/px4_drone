@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'keyboard = px4_control.control_keyboard:main',
-            'drone1 = px4_control.drone1:main'
+            'drone1 = px4_control.drone1:main',
+            'drone2 = px4_control.drone2:main'
         ],
     },
 )

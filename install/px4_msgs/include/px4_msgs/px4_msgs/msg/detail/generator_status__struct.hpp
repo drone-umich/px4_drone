@@ -323,52 +323,121 @@ using GeneratorStatus =
   px4_msgs::msg::GeneratorStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_OFF;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_READY;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_GENERATING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_CHARGING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_REDUCED_POWER;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_MAXPOWER;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_OVERTEMP_WARNING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_OVERTEMP_FAULT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_ELECTRONICS_OVERTEMP_WARNING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_ELECTRONICS_OVERTEMP_FAULT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_ELECTRONICS_FAULT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_POWERSOURCE_FAULT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_COMMUNICATION_WARNING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_COOLING_WARNING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_POWER_RAIL_FAULT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_OVERCURRENT_FAULT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_BATTERY_OVERCHARGE_CURRENT_FAULT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_OVERVOLTAGE_FAULT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_BATTERY_UNDERVOLT_FAULT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_START_INHIBITED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_MAINTENANCE_REQUIRED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_WARMING_UP;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint64_t GeneratorStatus_<ContainerAllocator>::STATUS_FLAG_IDLE;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

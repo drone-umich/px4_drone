@@ -259,16 +259,31 @@ using LoggerStatus =
   px4_msgs::msg::LoggerStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t LoggerStatus_<ContainerAllocator>::LOGGER_TYPE_FULL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t LoggerStatus_<ContainerAllocator>::LOGGER_TYPE_MISSION;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t LoggerStatus_<ContainerAllocator>::BACKEND_FILE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t LoggerStatus_<ContainerAllocator>::BACKEND_MAVLINK;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t LoggerStatus_<ContainerAllocator>::BACKEND_ALL;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

@@ -141,10 +141,16 @@ using UlogStreamAck =
   px4_msgs::msg::UlogStreamAck_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int32_t UlogStreamAck_<ContainerAllocator>::ACK_TIMEOUT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int32_t UlogStreamAck_<ContainerAllocator>::ACK_MAX_TRIES;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

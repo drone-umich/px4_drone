@@ -487,62 +487,146 @@ using InternalCombustionEngineStatus =
   px4_msgs::msg::InternalCombustionEngineStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InternalCombustionEngineStatus_<ContainerAllocator>::STATE_STOPPED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InternalCombustionEngineStatus_<ContainerAllocator>::STATE_STARTING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InternalCombustionEngineStatus_<ContainerAllocator>::STATE_RUNNING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InternalCombustionEngineStatus_<ContainerAllocator>::STATE_FAULT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_GENERAL_ERROR;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_CRANKSHAFT_SENSOR_ERROR_SUPPORTED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_CRANKSHAFT_SENSOR_ERROR;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_TEMPERATURE_SUPPORTED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_TEMPERATURE_BELOW_NOMINAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_TEMPERATURE_ABOVE_NOMINAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_TEMPERATURE_OVERHEATING;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_TEMPERATURE_EGT_ABOVE_NOMINAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_FUEL_PRESSURE_SUPPORTED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_FUEL_PRESSURE_BELOW_NOMINAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_FUEL_PRESSURE_ABOVE_NOMINAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_DETONATION_SUPPORTED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_DETONATION_OBSERVED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_MISFIRE_SUPPORTED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_MISFIRE_OBSERVED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_OIL_PRESSURE_SUPPORTED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_OIL_PRESSURE_BELOW_NOMINAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_OIL_PRESSURE_ABOVE_NOMINAL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_DEBRIS_SUPPORTED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint32_t InternalCombustionEngineStatus_<ContainerAllocator>::FLAG_DEBRIS_DETECTED;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InternalCombustionEngineStatus_<ContainerAllocator>::SPARK_PLUG_SINGLE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InternalCombustionEngineStatus_<ContainerAllocator>::SPARK_PLUG_FIRST_ACTIVE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InternalCombustionEngineStatus_<ContainerAllocator>::SPARK_PLUG_SECOND_ACTIVE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t InternalCombustionEngineStatus_<ContainerAllocator>::SPARK_PLUG_BOTH_ACTIVE;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

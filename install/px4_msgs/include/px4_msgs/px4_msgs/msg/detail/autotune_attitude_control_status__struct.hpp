@@ -349,34 +349,76 @@ using AutotuneAttitudeControlStatus =
   px4_msgs::msg::AutotuneAttitudeControlStatus_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_IDLE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_INIT;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_ROLL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_ROLL_PAUSE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_PITCH;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_PITCH_PAUSE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_YAW;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_YAW_PAUSE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_VERIFICATION;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_APPLY;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_TEST;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_COMPLETE;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_FAIL;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t AutotuneAttitudeControlStatus_<ContainerAllocator>::STATE_WAIT_FOR_DISARM;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

@@ -258,14 +258,26 @@ using SensorCombined =
   px4_msgs::msg::SensorCombined_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr int32_t SensorCombined_<ContainerAllocator>::RELATIVE_TIMESTAMP_INVALID;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t SensorCombined_<ContainerAllocator>::CLIPPING_X;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t SensorCombined_<ContainerAllocator>::CLIPPING_Y;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t SensorCombined_<ContainerAllocator>::CLIPPING_Z;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

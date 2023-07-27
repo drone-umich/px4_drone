@@ -401,18 +401,36 @@ using PositionSetpoint =
   px4_msgs::msg::PositionSetpoint_<std::allocator<void>>;
 
 // constant definitions
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionSetpoint_<ContainerAllocator>::SETPOINT_TYPE_POSITION;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionSetpoint_<ContainerAllocator>::SETPOINT_TYPE_VELOCITY;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionSetpoint_<ContainerAllocator>::SETPOINT_TYPE_LOITER;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionSetpoint_<ContainerAllocator>::SETPOINT_TYPE_TAKEOFF;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionSetpoint_<ContainerAllocator>::SETPOINT_TYPE_LAND;
+#endif  // __cplusplus < 201703L
+#if __cplusplus < 201703L
+// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t PositionSetpoint_<ContainerAllocator>::SETPOINT_TYPE_IDLE;
+#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 
